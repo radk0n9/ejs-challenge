@@ -1,0 +1,88 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    text-indent: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-nav li a:hover {
+    color: #7feead;
+}
+ 
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer  {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #7feead;
+}
+
+.footer p {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #afafaf;
+}
+
+.form-label {
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;;
+}
+
+#home-section, #about-section, #contact-section, #compose-section, #post-section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#compose-form {
+    max-width: 60%;
+}
+
+#compose-btn, #btn-newpost, #btn-home {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #326246;
+    border-color: #336347;
+}
+
+#compose-btn:hover, #btn-newpost:hover, #btn-home:hover {
+    background-color: #74b890;
+}
+
+input[type="text"]:focus, textarea[type="text"]:focus{
+    border: 1px solid #7feead;
+    box-shadow: none;
+}
+
+p a {
+    color: #d82552;
+    font-weight: 600;
+}
+
+p a:hover {
+    color: #7feead;
+}
